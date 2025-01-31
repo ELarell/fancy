@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/037/170/421/non_2x/ai-generated-a-gym-with-dark-exercise-equipment-free-photo.jpg")
+} 
+
+.header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    opacity: 0.8;
+    margin-bottom: 4px;
+}
+
+h5 {
+    color: white;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+p {
+    color: white;
+}
+
+label {
+    color: white;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.login {
+    color: blue;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    border: 2px solid blue
+}
+
+
+.account{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-weight: bold; 
+}
+
+button {
+    color: blue;
+    border: 2px solid blue
+}
